@@ -4,30 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CyTravelLanding</title>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
 
-      .flex-container {
-        display: flex;
-        flex-direction: row;
-      }
-
-      /* Responsive layout - makes a one column-layout instead of two-column layout */
-      /* @media (max-width: 600px) {
-        .flex-container {
-          flex-direction: column;
-        }
-      } */
-    </style>
     <link rel="stylesheet" href="challenge.css" />
+    <link rel="stylesheet" href="sticky.css" />
     <script
       src="https://kit.fontawesome.com/406f972bb9.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body style="margin: 0">
+  <body style="margin: 0; position: relative">
+    <!-- sticky elements -->
+    <div class="sticky flex-container">
+      <div class="flex-half">
+        <div class="invision flex-container" style="margin-top: 15px">
+          <a
+            href="https://www.invisionapp.com/?utm_medium=virality&utm_source=Share%20CTA"
+            target="_blank"
+          >
+            <span style="font-size: 18px"
+              ><i class="fa-brands fa-invision"></i>
+              <span style="font-size: 14px">Made in InVision</span></span
+            >
+          </a>
+        </div>
+      </div>
+      <div class="flex-half flex-container" style="margin-left: 500px">
+        <div class="icon">
+          <i class="fa-regular fa-comment"></i
+          ><span class="hidden">Comments</span>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i
+          ><span class="hidden">Search</span>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-code"></i><span class="hidden">Inspect</span>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-code-branch"></i
+          ><span class="hidden">Flow</span>
+        </div>
+        <div class="screens float-right">
+          <span><i class="fa-solid fa-bars"></i> Screens (4 of 10)</span>
+        </div>
+      </div>
+    </div>
+
     <!-- first page -->
     <div class="first-page">
       <!-- header -->

@@ -1,0 +1,51 @@
+.sticky {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin: 30px 30px;
+
+  z-index: 2;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.invision {
+  width: 170px;
+  height: 50px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: rgba(245, 245, 245, 0.7);
+}
+.invision a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+
+.sticky .icon {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: rgba(245, 245, 245, 0.7);
+  padding: 18px;
+  font-size: 20px;
+  transition: width 1s ease 1s;
+}
+.hidden {
+  display: none;
+}
+
+.screens {
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 180px;
+  height: 50px;
+  padding: 15px 16px;
+  border-radius: 30px;
+  background-color: rgba(245, 245, 245, 0.7);
+}
