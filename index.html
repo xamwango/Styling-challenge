@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyTravelLanding</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+      }
+
+      /* Responsive layout - makes a one column-layout instead of two-column layout */
+      /* @media (max-width: 600px) {
+        .flex-container {
+          flex-direction: column;
+        }
+      } */
+    </style>
+    <link rel="stylesheet" href="challenge.css" />
+    <script
+      src="https://kit.fontawesome.com/406f972bb9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="margin: 0">
+    <!-- first page -->
+    <div class="first-page">
+      <!-- header -->
+      <div class="header flex-container">
+        <div class="right-header">
+          <select
+            name="countries"
+            style="
+              border: none;
+              background-color: inherit;
+              margin-right: 15px;
+              color: white;
+            "
+          >
+            <option value="Kenya">Kenya</option>
+          </select>
+          | <span style="margin-left: 15px">+254(0) 712 101 222</span>
+        </div>
+        <div class="center-header">
+          <img src="images/logo1.png" alt="logo" style="height: 6.25rem" />
+        </div>
+        <div class="left-header">
+          <button
+            class="button-right-header right-header"
+            style="background-color: orange; border: none"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
+      <!-- nav -->
+      <div class="navbar flex-container">
+        <span style="margin-left: 500px"><a href="#">ABOUT US</a> |</span>
+        <span><a href="#">DESTINATIONS</a> |</span>
+        <span><a href="#">WHEN TO TRAVEL</a> | </span>
+        <span><a href="#">RESOURCES</a> |</span>
+        <span><a href="#">CONTACT US</a></span>
+      </div>
+
+      <!-- main -->
+      <div class="main">
+        <div class="center">
+          <span style="font-size: 60px; font-weight: 900"
+            >Design Your Dream Trip</span
+          >
+        </div>
+        <div class="center flex-container" style="padding: 20px">
+          <button class="button" style="margin-left: 450px">Honeymoon</button>
+          <button class="button">Group Trips</button>
+          <button class="button">Destination Wedding</button>
+          <button class="button">Solo Adventure</button>
+        </div>
+        <div class="center flex-container">
+          <button class="button" style="margin-left: 570px">
+            Couple's Escape
+          </button>
+          <button class="button">Family Holiday</button>
+          <button class="button">All Trips</button>
+        </div>
+      </div>
+    </div>
+    <!-- second page -->
+    <div style="margin-top: 70px; margin-bottom: 5px">
+      <div class="center">
+        <p class="opacity-6">DISCOVER</p>
+        <span class="large-text">JOURNEYS WITH NO</span><br />
+        <span class="large-text">BOUNDARIES IN ALL OF AFRICA</span>
+        <p style="margin-top: 50px" class="opacity-6">
+          Because you want to do something that no one else can. Build you an
+        </p>
+        <p class="opacity-6">
+          exclusive camp from scratch in the Maasai Mara, we create rare
+          experiences
+        </p>
+        <p class="opacity-6">of the world with unparalled insight</p>
+      </div>
+      <div class="flex-container">
+        <img
+          src="images/maasai mara.png"
+          alt="Maasai Mara"
+          class="flex-quarter image"
+        />
+        <img
+          src="images/malindi.png"
+          alt="Malindi"
+          class="flex-quarter image"
+        />
+        <img
+          src="images/Zanzibar.png"
+          alt="Zanzibar"
+          class="flex-quarter image"
+        />
+        <img
+          src="images/Mt Kilimanjaro.png"
+          alt="Mt Kilimanjaro"
+          class="flex-quarter image"
+        />
+      </div>
+    </div>
+    <!-- third page -->
+    <div style="margin-bottom: 60px">
+      <div class="center" style="margin-top: 100px">
+        <p class="opacity-6"><small>UNEARTH</small></p>
+        <span class="opacity-9 large-text">THE ANTILOPHIA EXPERIENCE</span>
+      </div>
+      <!-- Zanzibar -->
+      <div class="flex-container" style="margin-top: 50px">
+        <div class="image-square">
+          <img src="images/zanzibar1.png" alt="Zanzibar" class="image-fill" />
+          <!-- <p class="large-text">Zanzibar</p> -->
+        </div>
+        <div class="details">
+          <div>
+            <span style="color: teal" class="medium-text"
+              >Discover Zanzibar</span
+            >
+            <p class="opacity-6">
+              Best for: Couples, Swimming, Hot Air Balloon
+            </p>
+          </div>
+          <div style="margin-top: 30px">
+            <p class="opacity-9 bold">
+              Cool off with a dip at our luxurious swimming pool. The pool has
+              easy access to
+            </p>
+            <p class="opacity-9 bold">
+              the Hive Bar and Restaurant, allowing you your fill of a tempting
+              array of
+            </p>
+            <p class="opacity-9 bold">
+              poolside snacks and drinks throughout the day.
+            </p>
+          </div>
+          <div class="flex-container">
+            <div class="flex-half">
+              <p>
+                <span class="orange medium-text opacity-9">Call us on</span>
+              </p>
+              <p>
+                <span class="medium-text opacity-9">+254(0) 712 101 222</span>
+              </p>
+
+              <p>
+                <span class="bold opacity-6"
+                  >to start planning your holiday</span
+                >
+              </p>
+            </div>
+            <div class="flex-half">
+              <button class="buttonDetails orange opacity-9 bold">
+                ENQUIRE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Malindi -->
+      <div class="flex-container" style="margin-top: 50px; margin-bottom: 20px">
+        <div class="image-square" style="margin-top: 30px">
+          <img src="images/malindi1.png" alt="Malindi" class="image-fill" />
+          <!-- <p class="large-text">Malindi</p> -->
+        </div>
+        <div class="details">
+          <div>
+            <span style="color: teal" class="medium-text"
+              >Discover Malindi</span
+            >
+            <p class="opacity-6">Best for: Couples, Speed boat riding</p>
+          </div>
+          <div style="margin-top: 30px">
+            <p class="opacity-9 bold">
+              CySuites Travel puts you at the forefront of a unique dining
+              experience. Enjoy
+            </p>
+            <p class="opacity-9 bold">
+              exquisite dishes from all around the world and your favorite
+              drinks in a serene
+            </p>
+            <p class="opacity-9 bold">
+              environment overlooking the pool with your friends, family or
+              colleagues.
+            </p>
+          </div>
+          <div class="flex-container">
+            <div class="flex-half">
+              <p>
+                <span class="orange medium-text opacity-9">Call us on</span>
+              </p>
+              <p>
+                <span class="medium-text opacity-9">+254(0) 712 101 222</span>
+              </p>
+
+              <p>
+                <span class="bold opacity-6"
+                  >to start planning your holiday</span
+                >
+              </p>
+            </div>
+            <div class="flex-half">
+              <button class="buttonDetails orange opacity-9 bold">
+                ENQUIRE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Maasai Mara -->
+      <div class="flex-container" style="margin-top: 50px; margin-bottom: 20px">
+        <div class="image-square" style="margin-top: 30px">
+          <img
+            src="images/masai mara1.png"
+            alt="Maasai Mara"
+            class="image-fill"
+          />
+          <!-- <p class="large-text">Maasai Mara</p> -->
+        </div>
+        <div class="details">
+          <div>
+            <span style="color: teal" class="medium-text"
+              >Discover Maasai Mara</span
+            >
+            <p class="opacity-6">
+              Best for: Couples, Swimming, Hot Air Balloon
+            </p>
+          </div>
+          <div style="margin-top: 30px">
+            <p class="opacity-9 bold">
+              Cool off with a dip at our luxurious swimming pool. The pool has
+              easy access to
+            </p>
+            <p class="opacity-9 bold">
+              the Hive Bar and Restaurant, allowing you your fill of a tempting
+              array of
+            </p>
+            <p class="opacity-9 bold">
+              poolside snacks and drinks throughout the day.
+            </p>
+          </div>
+          <div class="flex-container">
+            <div class="flex-half">
+              <p>
+                <span class="orange medium-text opacity-9">Call us on</span>
+              </p>
+              <p>
+                <span class="medium-text opacity-9">+254(0) 712 101 222</span>
+              </p>
+
+              <p>
+                <span class="bold opacity-6"
+                  >to start planning your holiday</span
+                >
+              </p>
+            </div>
+            <div class="flex-half">
+              <button class="buttonDetails orange opacity-9 bold">
+                ENQUIRE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="center">
+        <p class="opacity-6" style="font-size: 24">
+          <a href="#" style="text-decoration: none; color: black"
+            >SEE ALL DESTINATIONS
+            <span style="font-size: 9px">&#10095;</span></a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- fourth page -->
+    <div class="fourth-page">
+      <div class="center" style="padding: 70px; margin-top: 100px">
+        <p class="opacity-6"><small>TESTIMONIALS</small></p>
+        <span class="opacity-9 large-text">THE ANTILOPHIA EXPERIENCE</span>
+      </div>
+      <div>
+        <div class="comments">
+          <div
+            class="flex-container"
+            style="padding-top: 40px; padding-left: 60px"
+          >
+            <div class="profile-pic">
+              <img src="images/amanda.jpeg" alt="Nawi" id="profile" />
+            </div>
+            <div>
+              <p
+                class="medium-text"
+                style="
+                  color: white;
+                  padding-left: 15px;
+                  margin-top: 0px;
+                  margin-bottom: 10px;
+                "
+              >
+                Amanda Doe
+              </p>
+              <p></p>
+            </div>
+          </div>
+          <div style="padding-left: 60px; line-height: 0.5">
+            <small>
+              <p>
+                Booked a vacation through your company in Cyprus at the end of
+              </p>
+              <p>
+                April. The hotel is very decent, the quality of food is good,
+                the area is
+              </p>
+              <p>
+                large, so even the pool is there. Azure water and white velvet
+                sand will
+              </p>
+              <p>not leave anyone indifferent.</p>
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fifth page -->
+    <div>
+      <div
+        class="center"
+        style="padding: 0px; margin-top: 40px; margin-bottom: 60px"
+      >
+        <span class="opacity-9 large-text">DISCOVER OTHER DESTINATIONS</span>
+      </div>
+      <div class="flex-container" style="margin-bottom: 100px">
+        <div class="square-300" style="margin-left: 150px">
+          <img
+            src="images/zanzibar3.png"
+            alt="Zanzibar"
+            class="img-square-300"
+          />
+        </div>
+        <div class="square-300">
+          <img
+            src="images/voctoria.png"
+            alt="Victoria falls"
+            class="img-square-300"
+          />
+        </div>
+        <div class="square-300">
+          <img src="images/pajeta.png" alt="Ol Pejeta" class="img-square-300" />
+        </div>
+        <div class="square-300">
+          <img
+            src="images/serengeti.png"
+            alt="Serengeti"
+            class="img-square-300"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- last page -->
+    <div
+      style="background-color: rgb(3, 97, 84); color: white; position: relative"
+      class="page"
+    >
+      <div style="padding-top: 50px; padding-left: 100px; padding-right: 100px">
+        <div>
+          <div class="img-centre"><img src="images/logo2.png" alt="" /></div>
+
+          <hr style="background-color: white" />
+        </div>
+        <div
+          class="flex-container"
+          style="
+            padding: 30px 50px 120px 50px;
+
+            margin-bottom: 0;
+          "
+        >
+          <div class="flex-third" style="line-height: 0.5">
+            <div>
+              <p class="bold" style="margin-left: 50px">ADDRESS</p>
+              <p>P.O. Box 20695-00200,</p>
+              <p>Nairobi, Kenya</p>
+            </div>
+            <div style="margin-top: 50px">
+              <p class="bold" style="margin-left: 50px">TELEPHONE</p>
+              <p>Phone +254(0) 712 101 222</p>
+            </div>
+          </div>
+          <div class="flex-third" style="line-height: 0.5">
+            <div style="margin-left: 40px">
+              <p class="bold" style="margin-left: 100px">NEWSLETTER</p>
+              <p>Sign in below to receive CyTravel newsletter</p>
+              <p>and occasional updates from our Journal</p>
+            </div>
+            <div style="margin-top: 30px; color: white">
+              <div class="wrapper">
+                <input type="text" placeholder="Your Email" />
+                <button type="submit">SUBMIT</button>
+              </div>
+            </div>
+          </div>
+          <div class="flex-third" style="margin-left: 170px; line-height: 0.5">
+            <div>
+              <div>
+                <p class="bold" style="margin-left: 200px">SOCIAL</p>
+              </div>
+              <div class="flex-container" style="margin-left: 140px">
+                <div class="fontAwesome">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="fontAwesome">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="fontAwesome">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+                <div class="fontAwesome">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div></div>
+              </div>
+            </div>
+            <div style="margin-top: 70px">
+              <div>
+                <p class="bold" style="margin-left: 200px">WE ACCEPT</p>
+              </div>
+              <div class="flex-container" style="margin-left: 100px">
+                <img src="images/mpesa.png" alt="" />
+                <i class="fa-brands fa-cc-visa" style="font-size: 48px"></i>
+                <i
+                  class="fa-brands fa-cc-mastercard"
+                  style="font-size: 48px"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex-container bottom-navbar">
+      <div class="flex-container bottom-nav-left flex-half">
+        <a href="#">ABOUT US</a>
+        <a href="#">ALL TRIPS</a>
+        <a href="#">DESTINATIONS</a>
+        <a href="#">CONTACT US</a>
+      </div>
+      <div class="bottom-nav-right flex-half">
+        <small>&copy;2023 CyTravel. All rights reserved.</small>
+      </div>
+    </div>
+  </body>
+</html>

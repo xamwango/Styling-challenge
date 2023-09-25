@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* flexContainer and flex items */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-half {
+  flex: 50%;
+}
+.flex-third {
+  flex: 33.33%;
+}
+.flex-quarter {
+  flex: 25%;
+}
+
+.first-page {
+  height: auto;
+  background-image: url(images/masai-mara-first\ pagr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: auto;
+}
+.header {
+  display: flex;
+  color: white;
+}
+.right-header {
+  margin: 1.25rem;
+}
+.center-header {
+  margin: 1.25rem 28%;
+}
+.right-header {
+  margin: 1.25rem;
+  margin-left: 3.125rem;
+}
+.navbar {
+  margin-top: 0rem;
+  text-align: center;
+  background-color: rgba(192, 189, 189, 0.2);
+  padding: 1.25rem;
+  color: white;
+}
+.navbar a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 0.625rem;
+  font-weight: 500;
+}
+
+.center {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.button-right-header {
+  margin-top: 30px;
+  margin-right: 60px;
+  font-size: 1rem;
+  border-radius: 1.25rem;
+  padding: 0.825rem 2.3rem;
+  background-color: inherit;
+  color: white;
+}
+.main {
+  margin-top: 11.25rem;
+  padding-bottom: 100px;
+
+  color: white;
+}
+.main .button {
+  color: white;
+  font-size: 1rem;
+  border-radius: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  background-color: inherit;
+  border: 0.0625rem solid white;
+  margin: 0 5px;
+}
+.large-text {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+.medium-text {
+  font-size: 1.5625rem;
+  font-weight: 600;
+}
+
+.opacity-6 {
+  opacity: 0.6;
+}
+.opacity-9 {
+  opacity: 0.7;
+}
+.image {
+  height: 37.5rem;
+  margin-bottom: 1.875rem;
+}
+.image-square {
+  margin: 1.25rem;
+  margin-left: 12.5rem;
+  width: 25rem;
+  height: 30rem;
+  /* background-color: aqua; */
+}
+.image-fill {
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+}
+.details {
+  padding: 30px 3.125rem;
+  margin-right: 300px;
+}
+.orange {
+  color: orange;
+}
+.white {
+  color: white;
+}
+.buttonDetails {
+  margin-left: 80px;
+  margin-top: 3.125rem;
+  font-size: 1.25rem;
+  border-radius: 40px;
+  padding: 15px 60px;
+  background-color: inherit;
+  border: 0.0625rem solid orange;
+}
+
+p {
+  font-weight: 530;
+}
+
+.fourth-page {
+  background-color: darkgrey;
+  margin-bottom: 100px;
+  padding-bottom: 70px;
+  background-image: url(images/Mara-sunset.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#inquiry {
+  background-color: rgb(248, 183, 61);
+
+  margin-top: 7px;
+  padding: 0.625rem 35px;
+  border-radius: 1.875rem;
+  font-size: medium;
+  border: none;
+  color: white;
+}
+.comments {
+  width: 31.25rem;
+  max-width: 100%;
+  height: 17.5rem;
+  border-radius: 1.875rem;
+  background-color: rgba(216, 215, 215, 0.4);
+  color: white;
+  margin: auto;
+}
+.profile-pic {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 15px;
+  background-color: whitesmoke;
+}
+#profile {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.square-300 {
+  width: 300px;
+  height: 300px;
+  border-radius: 0.625rem;
+  margin: 0.625rem;
+}
+.img-square-300 {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.img-centre {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.wrapper {
+  max-width: 100%;
+  position: relative;
+}
+.wrapper input {
+  width: 100%;
+  color: white;
+  background-color: rgb(31, 85, 76);
+  border-radius: 3.125rem;
+  padding: 1.25rem;
+  border: none;
+}
+.wrapper ::placeholder {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.wrapper button {
+  background-color: rgb(248, 183, 61);
+  position: absolute;
+  right: 2%;
+  margin-top: 7px;
+  padding: 0.625rem 35px;
+  border-radius: 1.875rem;
+  font-size: medium;
+  border: none;
+  color: white;
+}
+
+.fontAwesome {
+  margin: 5px;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  border: 0.0625rem solid white;
+}
+.fa-facebook-f {
+  padding: 6px 0.625rem !important;
+}
+.fa-brands {
+  padding: 6px 7px;
+}
+/* bottom navbar */
+.bottom-navbar {
+  background-color: rgb(1, 66, 55);
+  /* position: absolute;
+  bottom: 0%; */
+  width: 100%;
+  padding: 25px 60px;
+}
+.bottom-navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 1.25rem;
+  font-size: small;
+  font-weight: bold;
+}
+.bottom-nav-left {
+  margin-left: 40px;
+}
+.bottom-nav-right {
+  margin-right: 40px;
+  color: white;
+}
+.bottom-nav-right small {
+  float: right;
+}
+@media only screen and (max-width: 768px) {
+  * {
+    margin: auto;
+    line-height: normal;
+  }
+  .square-300 {
+    margin: 0.625rem;
+  }
+  .indented {
+    margin: auto;
+  }
+  .page {
+    max-width: 100%;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-half .flex-third .flex-quarter {
+    flex: 100%;
+  }
+}
